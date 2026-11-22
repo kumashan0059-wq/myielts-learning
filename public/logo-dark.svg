@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Left Red Ribbon Outer Gradient -->
+    <linearGradient id="darkRedRibbonLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF4D61" />
+      <stop offset="25%" stop-color="#E11D2A" />
+      <stop offset="70%" stop-color="#B91420" />
+      <stop offset="100%" stop-color="#7A0510" />
+    </linearGradient>
+
+    <!-- Right Red Ribbon Gradient -->
+    <linearGradient id="darkRedRibbonRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5A6E" />
+      <stop offset="35%" stop-color="#E11D2A" />
+      <stop offset="75%" stop-color="#BA121E" />
+      <stop offset="100%" stop-color="#66020B" />
+    </linearGradient>
+
+    <!-- Center Glossy Dark Ribbon Gradient with Rim Light -->
+    <linearGradient id="darkBlackRibbon" x1="30%" y1="0%" x2="70%" y2="100%">
+      <stop offset="0%" stop-color="#6B7280" />
+      <stop offset="25%" stop-color="#374151" />
+      <stop offset="60%" stop-color="#1F2937" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+
+    <!-- Red Ribbon Underside / Inner Shadow -->
+    <linearGradient id="darkRedUnder" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#55030A" />
+      <stop offset="60%" stop-color="#880A15" />
+      <stop offset="100%" stop-color="#B91420" />
+    </linearGradient>
+
+    <!-- Glossy White Sheen Highlights -->
+    <linearGradient id="darkWhiteSheen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9" />
+      <stop offset="40%" stop-color="#FFFFFF" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="darkBlackSheen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.75" />
+      <stop offset="30%" stop-color="#FFFFFF" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- IELTS Text Red Gradient -->
+    <linearGradient id="darkIeltsTextGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF4D61" />
+      <stop offset="50%" stop-color="#E11D2A" />
+      <stop offset="100%" stop-color="#C8102E" />
+    </linearGradient>
+
+    <!-- Divider Line Fade Gradient -->
+    <linearGradient id="darkLineFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E11D2A" stop-opacity="0" />
+      <stop offset="20%" stop-color="#E11D2A" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#E11D2A" stop-opacity="1" />
+      <stop offset="80%" stop-color="#E11D2A" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#E11D2A" stop-opacity="0" />
+    </linearGradient>
+
+    <filter id="darkGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#E11D2A" flood-opacity="0.2" />
+    </filter>
+  </defs>
+
+  <!-- 1. BACKGROUND GLOBE WIREFRAME (Light for dark theme) -->
+  <g id="globe-dark" stroke="#64748B" stroke-width="1.6" fill="none" opacity="0.6">
+    <circle cx="250" cy="180" r="108" />
+    <ellipse cx="250" cy="180" rx="42" ry="108" />
+    <line x1="250" y1="72" x2="250" y2="288" />
+    <ellipse cx="250" cy="144" rx="98" ry="34" />
+    <line x1="142" y1="180" x2="358" y2="180" />
+    <ellipse cx="250" cy="216" rx="98" ry="34" />
+  </g>
+
+  <!-- 2. AIRPLANE CONTRAIL -->
+  <g id="airplane-swoosh-dark">
+    <path
+      d="M 120 220 C 85 228 75 258 100 270 C 135 285 210 275 255 250 C 310 220 375 160 415 125"
+      fill="none"
+      stroke="#FF334B"
+      stroke-width="3.2"
+      stroke-linecap="round"
+    />
+    <path
+      d="M 88 238 C 76 254 84 274 115 278 C 160 282 225 264 270 238"
+      fill="none"
+      stroke="#FF7A88"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      opacity="0.8"
+    />
+    
+    <!-- Flying Red Jet Airplane -->
+    <g transform="translate(425, 115) rotate(35)">
+      <path
+        d="M 0 -18 C 1.5 -18 3 -12 3 -4 L 3 3 L 16 9 L 16 12 L 3 9 L 3 16 L 8 19 L 8 22 L 0 20 L -8 22 L -8 19 L -3 16 L -3 9 L -16 12 L -16 9 L -3 3 L -3 -4 C -3 -12 -1.5 -18 0 -18 Z"
+        fill="#FF2E44"
+      />
+    </g>
+  </g>
+
+  <!-- 3. THE 3D RIBBON "M" EMBLEM -->
+  <g id="ribbon-M-dark" filter="url(#darkGlow)">
+    <!-- Under-fold shadow layers -->
+    <path
+      d="M 160 270 C 135 270 105 272 88 288 C 110 280 145 274 175 268 Z"
+      fill="url(#darkRedUnder)"
+    />
+
+    <path
+      d="M 218 135 C 190 140 162 170 138 215 C 120 248 102 278 88 288 C 105 292 128 290 152 272 C 180 248 205 195 225 152 Z"
+      fill="url(#darkRedUnder)"
+      opacity="0.8"
+    />
+
+    <!-- A. LEFT RED RIBBON ARCH -->
+    <path
+      d="M 88 288 C 115 288 138 268 160 230 C 185 185 208 132 238 132 C 255 132 258 145 248 168 C 235 198 200 255 178 288 C 150 292 118 293 88 288 Z"
+      fill="url(#darkRedRibbonLeft)"
+    />
+
+    <path
+      d="M 168 215 C 190 170 210 135 236 135 C 248 135 252 142 245 158 C 232 186 200 235 178 275 C 172 255 168 235 168 215 Z"
+      fill="url(#darkWhiteSheen)"
+      opacity="0.55"
+    />
+
+    <!-- B. RIGHT RED RIBBON LEG -->
+    <path
+      d="M 285 175 C 300 145 320 132 342 132 C 372 132 388 185 408 238 C 420 268 435 285 452 288 C 422 292 395 288 375 260 C 352 230 338 178 325 152 C 315 150 298 165 285 175 Z"
+      fill="url(#darkRedRibbonRight)"
+    />
+
+    <path
+      d="M 330 136 C 355 136 375 175 392 222 C 405 255 418 275 435 284 C 418 284 398 275 382 252 C 362 218 348 170 330 136 Z"
+      fill="url(#darkWhiteSheen)"
+      opacity="0.4"
+    />
+
+    <!-- C. CENTER GLOSSY RIBBON -->
+    <path
+      d="M 235 132 C 255 132 272 152 268 185 C 262 228 235 272 235 278 C 240 285 260 285 280 265 C 305 240 325 188 335 140 C 322 135 305 132 290 132 C 280 152 265 195 252 225 C 255 185 252 150 235 132 Z"
+      fill="url(#darkBlackRibbon)"
+    />
+
+    <path
+      d="M 245 142 C 262 145 270 165 265 198 C 258 235 238 275 242 278 C 252 278 272 260 292 235 C 315 205 328 165 334 142 C 322 138 310 136 298 136 C 285 160 270 205 256 230 C 260 195 258 162 245 142 Z"
+      fill="#262E3B"
+    />
+
+    <!-- Sharp Gloss Highlight -->
+    <path
+      d="M 252 148 C 260 152 265 168 262 188 C 258 215 246 248 248 252 C 252 248 268 230 282 210 C 275 198 265 170 252 148 Z"
+      fill="url(#darkBlackSheen)"
+      opacity="0.8"
+    />
+
+    <path
+      d="M 230 268 C 235 278 242 284 252 284 C 268 284 285 265 300 248 C 290 262 275 276 260 278 C 248 278 240 274 235 265 Z"
+      fill="#0F172A"
+    />
+  </g>
+
+  <!-- 4. BRAND TYPOGRAPHY (Dark theme: "MY" in White) -->
+  <g id="typography-dark">
+    <!-- "MY" in Solid White Serif -->
+    <text
+      x="142"
+      y="362"
+      font-family="'Times New Roman', Times, 'Playfair Display', Georgia, serif"
+      font-size="78"
+      font-weight="900"
+      fill="#FFFFFF"
+      letter-spacing="2"
+    >MY</text>
+
+    <!-- "IELTS" in Bright Red Gradient Serif -->
+    <text
+      x="272"
+      y="362"
+      font-family="'Times New Roman', Times, 'Playfair Display', Georgia, serif"
+      font-size="78"
+      font-weight="900"
+      fill="url(#darkIeltsTextGrad)"
+      letter-spacing="3"
+    >IELTS</text>
+
+    <!-- Red Divider Rule Line -->
+    <line
+      x1="80"
+      y1="384"
+      x2="420"
+      y2="384"
+      stroke="url(#darkLineFade)"
+      stroke-width="1.8"
+    />
+
+    <!-- Centered Red Dot -->
+    <circle
+      cx="250"
+      cy="384"
+      r="4.5"
+      fill="#FF334B"
+    />
+
+    <!-- Tagline in Crisp Silver-White -->
+    <text
+      x="250"
+      y="414"
+      font-family="'Plus Jakarta Sans', 'Outfit', system-ui, -apple-system, sans-serif"
+      font-size="19"
+      font-weight="600"
+      fill="#E2E8F0"
+      letter-spacing="2.8"
+      text-anchor="middle"
+    >Prepare Smart. Go Global.</text>
+  </g>
+</svg>

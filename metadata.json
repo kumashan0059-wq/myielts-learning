@@ -1,0 +1,6 @@
+{
+  "name": "MY IELTS - Prepare Smart. Go Global.",
+  "description": "Premium IELTS preparation, English language training, study abroad consultancy, visa processing, and work permit services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,1868 @@
+{
+  "meta": {
+    "title": "IELTS Academic Practice Mock Test 1",
+    "label": "Independently created practice test. Not affiliated with, endorsed by, or produced by IELTS, the British Council, IDP: IELTS Australia or Cambridge University Press & Assessment.",
+    "version": "1.0",
+    "createdDate": "2026-11-22",
+    "originality": "All passages, scripts, questions and prompts were written from scratch for this test. Names, studies, places and figures are invented or illustrative, so do not cite them as facts.",
+    "modules": [
+      "reading",
+      "listening",
+      "writing",
+      "speaking"
+    ],
+    "approximateBandConversionUnofficial": {
+      "note": "Rough guide only. Actual IELTS band conversions vary between test versions.",
+      "reading": {
+        "39-40": 9.0,
+        "37-38": 8.5,
+        "35-36": 8.0,
+        "33-34": 7.5,
+        "30-32": 7.0,
+        "27-29": 6.5,
+        "23-26": 6.0,
+        "19-22": 5.5,
+        "15-18": 5.0,
+        "13-14": 4.5,
+        "10-12": 4.0
+      },
+      "listening": {
+        "39-40": 9.0,
+        "37-38": 8.5,
+        "35-36": 8.0,
+        "32-34": 7.5,
+        "30-31": 7.0,
+        "26-29": 6.5,
+        "23-25": 6.0,
+        "18-22": 5.5,
+        "16-17": 5.0,
+        "13-15": 4.5,
+        "10-12": 4.0
+      }
+    }
+  },
+  "reading": {
+    "timeMinutes": 60,
+    "totalQuestions": 40,
+    "passages": [
+      {
+        "id": "R1",
+        "title": "Power from the Moon: The Tide Mill",
+        "questionRange": "1-13",
+        "paragraphs": [
+          {
+            "label": "A",
+            "text": "Long before steam engines or electricity, communities on sheltered coasts discovered that the sea itself could turn a millstone. A tide mill works on a simple principle. As the tide rises, water pushes open a gate and fills a large storage pond. When the sea outside begins to fall, the gate swings shut and traps the water inside. Once the level in the estuary has dropped far enough, the miller opens a channel called a sluice, and the stored water pours across a wheel, which drives the grinding machinery. Windmills depended on breezes, and river mills suffered during droughts and frosts, but tide mills followed the predictable rhythm of the moon."
+          },
+          {
+            "label": "B",
+            "text": "That predictability came at a price. A full pond could keep the wheel turning for only about three hours, so a mill could work two short shifts a day. Because high tide arrives roughly fifty minutes later each day, the miller's working hours drifted constantly: one week he might be grinding at midnight, the next at dawn. Millers' families learned to organise meals and sleep around a tide table rather than a clock, and apprentices were often hired as much for their willingness to work at odd hours as for their skill."
+          },
+          {
+            "label": "C",
+            "text": "Building a tide mill required considerable capital. The pond had to be enclosed by a thick wall of earth and stone, and the gates had to hold back enormous volumes of water without leaking. Saltwick Mill, built on a muddy creek in 1742, had a pond covering about eleven hectares, and it took four years to complete. Its three investors, all grain merchants, hoped to recover their outlay within a decade. However, silt carried in by every tide clogged the creek, and the channel had to be dredged each spring. It was not until 1768 that the mill first made a profit."
+          },
+          {
+            "label": "D",
+            "text": "Despite such costs, tide mills multiplied. A survey in 1850 recorded about 140 of them along a single stretch of coastline, many supplying flour to expanding port towns. Bakers valued the steady output, while ship captains appreciated that sacks could be loaded directly from the mill's own quay. Some owners diversified. Saltwick began pressing oilseed in 1790 and later added a second wheel to saw timber, which gave the mill income in months when grain prices were low."
+          },
+          {
+            "label": "E",
+            "text": "Decline arrived with the steam engine, which could be installed anywhere and was not tied to the tide. Coal-fired roller mills built beside railway stations could operate around the clock, and by the 1880s imported wheat was cheaper to process in large port mills than local grain was in small coastal ones. Saltwick ground its last sack of flour in 1921; its machinery was sold for scrap and the pond was drained for pasture. Many other mills met a similar fate."
+          },
+          {
+            "label": "F",
+            "text": "Today the surviving buildings attract a different kind of interest. Several have been restored as museums, and in one, volunteers fitted a small generator to the wheel so that it now produces enough electricity to light the exhibition rooms. Engineers who study the old sites point out that the original builders had already identified the key to a good location: a large difference between high and low water, combined with a narrow inlet that could be closed off cheaply."
+          }
+        ],
+        "questionGroups": [
+          {
+            "id": "R1-G1",
+            "type": "true_false_not_given",
+            "questionRange": "1-5",
+            "instructions": "Do the following statements agree with the information given in Passage 1? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
+            "questions": [
+              {
+                "number": 1,
+                "text": "Tide mills were less affected by cold weather than river mills were.",
+                "answer": "TRUE",
+                "explanation": "Paragraph A says river mills suffered during droughts and frosts, while tide mills followed the predictable rhythm of the moon."
+              },
+              {
+                "number": 2,
+                "text": "The hours during which a tide mill could work stayed the same throughout the year.",
+                "answer": "FALSE",
+                "explanation": "Paragraph B says the working hours drifted constantly because high tide arrives about fifty minutes later each day."
+              },
+              {
+                "number": 3,
+                "text": "The investors in Saltwick Mill had previously built other tide mills.",
+                "answer": "NOT GIVEN",
+                "explanation": "Paragraph C says only that the three investors were grain merchants. Nothing is said about earlier mills."
+              },
+              {
+                "number": 4,
+                "text": "Saltwick Mill began to make a profit within ten years of being built.",
+                "answer": "FALSE",
+                "explanation": "Paragraph C: built in 1742, first profit in 1768, which is 26 years later."
+              },
+              {
+                "number": 5,
+                "text": "The channel at Saltwick had to be cleared of silt every year.",
+                "answer": "TRUE",
+                "explanation": "Paragraph C says the channel had to be dredged each spring."
+              }
+            ]
+          },
+          {
+            "id": "R1-G2",
+            "type": "sentence_completion",
+            "questionRange": "6-9",
+            "instructions": "Complete the sentences below. Choose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer.",
+            "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+            "questions": [
+              {
+                "number": 6,
+                "text": "The stored water leaves the pond through a channel known as a {{6}}.",
+                "answer": "sluice",
+                "acceptedAnswers": [
+                  "sluice"
+                ],
+                "explanation": "Paragraph A: the miller opens a channel called a sluice."
+              },
+              {
+                "number": 7,
+                "text": "Millers' families arranged their meals and sleep according to a {{7}} instead of a clock.",
+                "answer": "tide table",
+                "acceptedAnswers": [
+                  "tide table"
+                ],
+                "explanation": "Paragraph B: organise meals and sleep around a tide table rather than a clock."
+              },
+              {
+                "number": 8,
+                "text": "The construction of the pond at Saltwick took {{8}} years.",
+                "answer": "four",
+                "acceptedAnswers": [
+                  "four",
+                  "4"
+                ],
+                "explanation": "Paragraph C: it took four years to complete."
+              },
+              {
+                "number": 9,
+                "text": "Saltwick Mill started pressing {{9}} in 1790.",
+                "answer": "oilseed",
+                "acceptedAnswers": [
+                  "oilseed"
+                ],
+                "explanation": "Paragraph D: Saltwick began pressing oilseed in 1790."
+              }
+            ]
+          },
+          {
+            "id": "R1-G3",
+            "type": "multiple_choice",
+            "questionRange": "10-13",
+            "instructions": "Choose the correct letter, A, B, C or D.",
+            "questions": [
+              {
+                "number": 10,
+                "text": "Why did the working hours of a tide mill change from week to week?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "Millers chose shifts that suited their apprentices."
+                  },
+                  {
+                    "key": "B",
+                    "text": "The pond could only be filled in the winter months."
+                  },
+                  {
+                    "key": "C",
+                    "text": "High tide occurred later each day."
+                  },
+                  {
+                    "key": "D",
+                    "text": "The wheel needed regular repairs."
+                  }
+                ],
+                "answer": "C",
+                "explanation": "Paragraph B: high tide arrives roughly fifty minutes later each day, so working hours drifted."
+              },
+              {
+                "number": 11,
+                "text": "What problem affected Saltwick Mill after it was built?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "The wall of the pond leaked badly."
+                  },
+                  {
+                    "key": "B",
+                    "text": "Silt kept building up in the creek."
+                  },
+                  {
+                    "key": "C",
+                    "text": "The investors withdrew their money."
+                  },
+                  {
+                    "key": "D",
+                    "text": "Merchants stopped buying its grain."
+                  }
+                ],
+                "answer": "B",
+                "explanation": "Paragraph C: silt carried in by every tide clogged the creek."
+              },
+              {
+                "number": 12,
+                "text": "According to paragraph E, why were large port mills more competitive by the 1880s?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "They used cheaper local grain."
+                  },
+                  {
+                    "key": "B",
+                    "text": "They could process imported wheat more cheaply."
+                  },
+                  {
+                    "key": "C",
+                    "text": "They were located closer to farms."
+                  },
+                  {
+                    "key": "D",
+                    "text": "They did not need coal."
+                  }
+                ],
+                "answer": "B",
+                "explanation": "Paragraph E: imported wheat was cheaper to process in large port mills than local grain in small coastal ones."
+              },
+              {
+                "number": 13,
+                "text": "What do engineers who study the old mill sites believe?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "Modern generators cannot be fitted to old wheels."
+                  },
+                  {
+                    "key": "B",
+                    "text": "The original builders understood what made a good location."
+                  },
+                  {
+                    "key": "C",
+                    "text": "New mills should be built on a larger scale."
+                  },
+                  {
+                    "key": "D",
+                    "text": "Narrow inlets are unsuitable for tidal power."
+                  }
+                ],
+                "answer": "B",
+                "explanation": "Paragraph F: the original builders had already identified the key to a good location."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "title": "Lichens: Partners on the Edge",
+        "questionRange": "14-26",
+        "paragraphs": [
+          {
+            "label": "A",
+            "text": "A lichen is not a single organism but a partnership. It consists of a fungus living together with a photosynthesising partner, usually a microscopic alga or a type of bacterium known as a cyanobacterium. The fungus provides protection and gathers moisture and minerals, while its partner makes sugars from sunlight. When the Swiss botanist Simon Schwendener first proposed this dual nature in 1867, many of his colleagues rejected the idea, insisting that lichens were a distinct kind of plant. It took years of microscope work, and eventually laboratory experiments in which the partners were separated and recombined, to convince the scientific community that he was right."
+          },
+          {
+            "label": "B",
+            "text": "Few living things tolerate such harsh conditions. Lichens grow on bare rock in deserts, on the frozen ground of the Arctic tundra, and on the roofs of buildings in cities. Their secret lies in their ability to dry out almost completely without being damaged. A lichen in a dry period can lose most of its water and become dormant, resuming photosynthesis within minutes of the arrival of rain or fog. Because they do not depend on soil, they can colonise surfaces where no other organism could gain a foothold."
+          },
+          {
+            "label": "C",
+            "text": "Lichens are also among the slowest-growing organisms. Some crust-forming species expand by less than one millimetre a year, so a large patch on a boulder may be several hundred years old. Scientists have turned this slowness to advantage in a technique called lichenometry. By measuring the largest lichen on a rock surface, such as one exposed when a glacier retreated, they can estimate how long ago the surface became available for colonisation. The method has limits, however. It becomes unreliable for surfaces older than a few thousand years, because the rock eventually becomes so crowded that individual colonies can no longer be measured. Growth rates also vary with local climate, so researchers need nearby surfaces of known age to calibrate their results."
+          },
+          {
+            "label": "D",
+            "text": "A different kind of information comes from lichens' sensitivity to the air. Unlike plants, they have no roots or protective outer layer; they absorb water and dissolved substances directly from rain and the atmosphere. Consequently, pollutants build up in their tissues. During the industrial era, sulphur dioxide from burning coal killed lichens across many cities, leaving 'lichen deserts' on walls and trees. When clean-air laws reduced emissions, lichens gradually returned, and ecologists now survey which species grow on tree trunks to produce cheap maps of air quality."
+          },
+          {
+            "label": "E",
+            "text": "Lichens matter in other ways too. By releasing mild acids, they slowly break down rock surfaces, contributing to the first stages of soil formation. In northern regions, reindeer depend on certain lichens as a winter food when other vegetation lies buried under snow. Birds use them as nesting material, and people have extracted dyes from them for centuries; the litmus paper familiar from school chemistry laboratories was originally made from a lichen extract."
+          },
+          {
+            "label": "F",
+            "text": "The future of lichens is uncertain. Slow growth makes it hard for them to recolonise areas damaged by logging or development, and some mountain species may be unable to move uphill quickly enough as temperatures rise. Yet researchers are also drawn to their toughness. In laboratory experiments, certain lichens have survived conditions resembling those on Mars, which has led some scientists to ask whether similar organisms might help us understand where life could exist beyond Earth. Many basic questions remain unanswered, including how the partners first came together."
+          }
+        ],
+        "questionGroups": [
+          {
+            "id": "R2-G1",
+            "type": "matching_headings",
+            "questionRange": "14-18",
+            "instructions": "Passage 2 has six paragraphs, A-F. Choose the correct heading for paragraphs B-F from the list of headings below. Write the correct number, i-viii. Example: Paragraph A - i",
+            "headings": [
+              {
+                "key": "i",
+                "text": "A surprising discovery about a shared life"
+              },
+              {
+                "key": "ii",
+                "text": "Survival where little else can"
+              },
+              {
+                "key": "iii",
+                "text": "Measuring the age of landscapes"
+              },
+              {
+                "key": "iv",
+                "text": "Clues about the quality of the air"
+              },
+              {
+                "key": "v",
+                "text": "The commercial exploitation of lichens"
+              },
+              {
+                "key": "vi",
+                "text": "A variety of roles in nature and human life"
+              },
+              {
+                "key": "vii",
+                "text": "Threats to their survival and unanswered questions"
+              },
+              {
+                "key": "viii",
+                "text": "Why growth rates differ between regions"
+              }
+            ],
+            "questions": [
+              {
+                "number": 14,
+                "paragraph": "B",
+                "text": "Paragraph B",
+                "answer": "ii",
+                "explanation": "The paragraph is about lichens living in deserts, tundra and bare rock, and how they survive drying out."
+              },
+              {
+                "number": 15,
+                "paragraph": "C",
+                "text": "Paragraph C",
+                "answer": "iii",
+                "explanation": "Lichenometry uses lichen size to date exposed surfaces. Heading viii is a distractor because climate variation is only a minor point."
+              },
+              {
+                "number": 16,
+                "paragraph": "D",
+                "text": "Paragraph D",
+                "answer": "iv",
+                "explanation": "Lichens absorb pollutants and are used to map air quality."
+              },
+              {
+                "number": 17,
+                "paragraph": "E",
+                "text": "Paragraph E",
+                "answer": "vi",
+                "explanation": "Soil formation, reindeer food, nesting material and dyes are varied roles. Heading v is a distractor because dyes are only one small example."
+              },
+              {
+                "number": 18,
+                "paragraph": "F",
+                "text": "Paragraph F",
+                "answer": "vii",
+                "explanation": "Slow recolonisation and mountain species at risk are threats; the final sentence mentions unanswered questions."
+              }
+            ]
+          },
+          {
+            "id": "R2-G2",
+            "type": "matching_information",
+            "questionRange": "19-22",
+            "instructions": "Which paragraph contains the following information? Write the correct letter, A-F.",
+            "paragraphOptions": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ],
+            "questions": [
+              {
+                "number": 19,
+                "text": "a mention of a scientist whose proposal was at first rejected by others",
+                "answer": "A",
+                "explanation": "Paragraph A: Schwendener's 1867 dual-nature idea was rejected by many colleagues."
+              },
+              {
+                "number": 20,
+                "text": "an explanation of why lichens take in harmful substances from their surroundings",
+                "answer": "D",
+                "explanation": "Paragraph D: no roots or protective outer layer, so they absorb substances directly from rain and air."
+              },
+              {
+                "number": 21,
+                "text": "a reason why a dating technique becomes unreliable for older surfaces",
+                "answer": "C",
+                "explanation": "Paragraph C: very old surfaces become so crowded that individual colonies can no longer be measured."
+              },
+              {
+                "number": 22,
+                "text": "a suggestion that lichens may help research into life on other planets",
+                "answer": "F",
+                "explanation": "Paragraph F: Mars-like conditions experiments and the question of life beyond Earth."
+              }
+            ]
+          },
+          {
+            "id": "R2-G3",
+            "type": "table_completion",
+            "questionRange": "23-26",
+            "instructions": "Complete the table below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+            "wordLimit": "NO MORE THAN TWO WORDS",
+            "table": {
+              "headers": [
+                "Feature",
+                "Details"
+              ],
+              "rows": [
+                [
+                  "Partnership",
+                  "The fungus provides protection and gathers moisture and {{23}}; its partner produces sugars."
+                ],
+                [
+                  "Growth",
+                  "Some crust-forming species grow by less than one {{24}} each year."
+                ],
+                [
+                  "Air pollution",
+                  "In industrial cities, {{25}} from coal killed many lichens."
+                ],
+                [
+                  "Animals",
+                  "In winter, {{26}} rely on certain lichens for food."
+                ]
+              ]
+            },
+            "questions": [
+              {
+                "number": 23,
+                "answer": "minerals",
+                "acceptedAnswers": [
+                  "minerals"
+                ],
+                "explanation": "Paragraph A: gathers moisture and minerals."
+              },
+              {
+                "number": 24,
+                "answer": "millimetre",
+                "acceptedAnswers": [
+                  "millimetre",
+                  "millimeter"
+                ],
+                "explanation": "Paragraph C: less than one millimetre a year."
+              },
+              {
+                "number": 25,
+                "answer": "sulphur dioxide",
+                "acceptedAnswers": [
+                  "sulphur dioxide",
+                  "sulfur dioxide"
+                ],
+                "explanation": "Paragraph D: sulphur dioxide from burning coal killed lichens."
+              },
+              {
+                "number": 26,
+                "answer": "reindeer",
+                "acceptedAnswers": [
+                  "reindeer"
+                ],
+                "explanation": "Paragraph E: reindeer depend on certain lichens as a winter food."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "title": "Outsourcing the Mind",
+        "questionRange": "27-40",
+        "note": "The researchers and studies in this passage are fictional and were invented for this test.",
+        "paragraphs": [
+          {
+            "label": "A",
+            "text": "Few people today can recite more than a handful of telephone numbers. Directions, birthdays, appointments and facts that once had to be carried in the head are now stored in devices. Psychologists call this habit cognitive offloading: using physical actions or external tools to reduce the mental demands of a task. Writing a shopping list or tying a string around a finger are old examples of the same impulse. What has changed is not the habit itself but its scale and convenience, since a smartphone can now take over an astonishing range of mental chores."
+          },
+          {
+            "label": "B",
+            "text": "Early commentary was gloomy. In a series of experiments, the cognitive scientist Helena Voss asked volunteers to read forty short factual statements and type them into a computer. Half the volunteers were told that the computer would save what they typed; the others were told that it would be erased. In a later memory test, those who believed their statements had been saved recalled significantly fewer of them. Voss concluded that the brain adjusts how much effort it invests according to whether it expects to need the information again."
+          },
+          {
+            "label": "C",
+            "text": "The experiments had limitations, however. The volunteers were all university students, and the statements were trivial facts of no importance to them. Psychologist Idris Mbeki argued that offloading is not harmful in itself and may even be helpful. In his study, participants who were allowed to save routine information to a device went on to perform better on a demanding problem-solving task than participants who tried to keep everything in their heads. Mbeki suggested that offloading can release mental resources for more complex thinking, although he stressed that his results applied only to the kind of tasks he had tested."
+          },
+          {
+            "label": "D",
+            "text": "The benefits seem to depend on what is offloaded. Tomoko Arai, a researcher in spatial cognition, compared two groups of drivers over a period of one month. One group followed spoken turn-by-turn instructions; the other planned routes using paper maps. When both groups were later asked to find their way around the area unaided, those who had relied on instructions made more errors and drew less accurate sketch maps of the district. Arai proposed that the crucial difference lies in whether a tool replaces thinking or supports it: instructions replaced the driver's own mental map, whereas paper maps required the user to build one."
+          },
+          {
+            "label": "E",
+            "text": "There is also a question of confidence. Several studies indicate that people who search the internet frequently tend to overestimate their own knowledge, mistaking the ease of finding information for understanding it. The boundary between what we know and what we can look up appears to blur. This matters because a person who believes he or she understands a subject is unlikely to question it, or to check whether the information found is reliable."
+          },
+          {
+            "label": "F",
+            "text": "Educators have responded in different ways. Some schools have banned phones from classrooms; others teach what one headteacher calls 'offloading literacy', in which pupils learn to decide which information deserves memorising and which can safely be looked up. Supporters of this approach argue that memorised knowledge forms the base on which new information is judged and connected; without it, searching becomes aimless because the searcher does not know what to look for."
+          },
+          {
+            "label": "G",
+            "text": "The alarm that greets each new technology is rarely justified, and the same may be true here. Human memory has always been supported by tools, from writing to printing, and societies have adapted each time. Yet complacency is no wiser than panic. The real question is not whether we offload, but what we choose to offload, and whether we keep the ability to think when the device is switched off."
+          }
+        ],
+        "questionGroups": [
+          {
+            "id": "R3-G1",
+            "type": "yes_no_not_given",
+            "questionRange": "27-31",
+            "instructions": "Do the following statements agree with the claims of the writer in Passage 3? Write YES if the statement agrees with the claims of the writer, NO if the statement contradicts the claims of the writer, NOT GIVEN if it is impossible to say what the writer thinks about this.",
+            "questions": [
+              {
+                "number": 27,
+                "text": "The writer believes digital tools have changed the scale of cognitive offloading rather than its basic nature.",
+                "answer": "YES",
+                "explanation": "Paragraph A: what has changed is not the habit itself but its scale and convenience."
+              },
+              {
+                "number": 28,
+                "text": "Voss concluded that people are unable to remember information when a computer is available.",
+                "answer": "NO",
+                "explanation": "Paragraph B: Voss concluded that the brain adjusts its effort depending on whether it expects to need the information again. She did not claim people are unable to remember."
+              },
+              {
+                "number": 29,
+                "text": "Voss later repeated her experiments with participants who were not students.",
+                "answer": "NOT GIVEN",
+                "explanation": "No information is given about any repetition of the experiments."
+              },
+              {
+                "number": 30,
+                "text": "The facts used in Voss's experiments had little importance for the volunteers.",
+                "answer": "YES",
+                "explanation": "Paragraph C: the statements were trivial facts of no importance to them."
+              },
+              {
+                "number": 31,
+                "text": "Arai found that drivers who used paper maps made more errors than drivers who followed spoken instructions.",
+                "answer": "NO",
+                "explanation": "Paragraph D: the group that relied on instructions made more errors, not the paper map group."
+              }
+            ]
+          },
+          {
+            "id": "R3-G2",
+            "type": "matching_features",
+            "questionRange": "32-35",
+            "instructions": "Look at the following statements and the list of researchers below. Match each statement with the correct researcher, A, B or C. You may use any letter more than once.",
+            "options": [
+              {
+                "key": "A",
+                "text": "Helena Voss"
+              },
+              {
+                "key": "B",
+                "text": "Idris Mbeki"
+              },
+              {
+                "key": "C",
+                "text": "Tomoko Arai"
+              }
+            ],
+            "questions": [
+              {
+                "number": 32,
+                "text": "found that saving routine information may improve later performance on a demanding task",
+                "answer": "B",
+                "explanation": "Paragraph C: Mbeki's participants who saved routine information did better on the problem-solving task."
+              },
+              {
+                "number": 33,
+                "text": "tested participants after they had used different navigation aids for about a month",
+                "answer": "C",
+                "explanation": "Paragraph D: Arai compared two groups of drivers over one month."
+              },
+              {
+                "number": 34,
+                "text": "gave participants different information about what would happen to the information they typed",
+                "answer": "A",
+                "explanation": "Paragraph B: some were told the computer would save the statements, others that it would erase them."
+              },
+              {
+                "number": 35,
+                "text": "argued that offloading need not be harmful in itself",
+                "answer": "B",
+                "explanation": "Paragraph C: Mbeki argued that offloading is not harmful in itself."
+              }
+            ]
+          },
+          {
+            "id": "R3-G3",
+            "type": "summary_completion",
+            "questionRange": "36-40",
+            "instructions": "Complete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+            "wordLimit": "NO MORE THAN TWO WORDS",
+            "summaryText": "People who frequently use search engines tend to {{36}} what they know, confusing the {{37}} with which information can be found with real understanding. Some schools now teach {{38}}, which helps pupils decide what to memorise. Supporters argue that stored knowledge forms a {{39}} for judging new information. The writer reminds readers that memory has long been supported by tools, from writing to {{40}}.",
+            "questions": [
+              {
+                "number": 36,
+                "answer": "overestimate",
+                "acceptedAnswers": [
+                  "overestimate"
+                ],
+                "explanation": "Paragraph E: tend to overestimate their own knowledge."
+              },
+              {
+                "number": 37,
+                "answer": "ease",
+                "acceptedAnswers": [
+                  "ease"
+                ],
+                "explanation": "Paragraph E: mistaking the ease of finding information for understanding it."
+              },
+              {
+                "number": 38,
+                "answer": "offloading literacy",
+                "acceptedAnswers": [
+                  "offloading literacy"
+                ],
+                "explanation": "Paragraph F: some schools teach offloading literacy."
+              },
+              {
+                "number": 39,
+                "answer": "base",
+                "acceptedAnswers": [
+                  "base"
+                ],
+                "explanation": "Paragraph F: memorised knowledge forms the base on which new information is judged."
+              },
+              {
+                "number": 40,
+                "answer": "printing",
+                "acceptedAnswers": [
+                  "printing"
+                ],
+                "explanation": "Paragraph G: from writing to printing."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "timeMinutes": 30,
+    "transferTimeMinutes": 10,
+    "totalQuestions": 40,
+    "audioNote": "No audio files are included. Each section has a complete script that can be recorded or generated with text-to-speech. Play each section once only. Suggested accents: Section 1 British, Section 2 British or Australian, Section 3 mixed, Section 4 British or New Zealand.",
+    "sections": [
+      {
+        "id": "L1",
+        "title": "Section 1: Course enquiry (conversation)",
+        "questionRange": "1-10",
+        "context": "A woman telephones a community arts centre to ask about a pottery course.",
+        "script": [
+          {
+            "speaker": "Daniel",
+            "text": "Good morning, Hillcrest Community Arts Centre. Daniel speaking."
+          },
+          {
+            "speaker": "Fiona",
+            "text": "Oh, good morning. I'm calling about the beginners' ceramics course. I saw it on your website last night."
+          },
+          {
+            "speaker": "Daniel",
+            "text": "Yes, we still have a few places. Can I take some details? What's your name, please?"
+          },
+          {
+            "speaker": "Fiona",
+            "text": "Fiona Brannigan."
+          },
+          {
+            "speaker": "Daniel",
+            "text": "Could you spell your surname for me?"
+          },
+          {
+            "speaker": "Fiona",
+            "text": "Of course. It's B-R-A-N-N-I-G-A-N."
+          },
+          {
+            "speaker": "Daniel",
+            "text": "Thank you. And a contact number?"
+          },
+          {
+            "speaker": "Fiona",
+            "text": "My mobile's best. It's 07700 900461."
+          },
+          {
+            "speaker": "Daniel",
+            "text": "Let me read that back: 07700 900461. Perfect. Now, there are two beginners' classes, one on Tuesday evenings and one on Thursday evenings. Which would suit you?"
+          },
+          {
+            "speaker": "Fiona",
+            "text": "Tuesday would be ideal, but I have choir practice then, so it'll have to be Thursday."
+          },
+          {
+            "speaker": "Daniel",
+            "text": "No problem. The Tuesday class starts at six, but the Thursday class is a bit later. It runs from half past six until half past eight."
+          },
+          {
+            "speaker": "Fiona",
+            "text": "That's fine. I finish work at five, so that gives me plenty of time."
+          },
+          {
+            "speaker": "Daniel",
+            "text": "Good. The course lasts eight weeks. The normal fee is ninety-five pounds, but if you book before the end of this month, there's a ten-pound early-booking discount."
+          },
+          {
+            "speaker": "Fiona",
+            "text": "So it would be eighty-five pounds?"
+          },
+          {
+            "speaker": "Daniel",
+            "text": "That's right."
+          },
+          {
+            "speaker": "Fiona",
+            "text": "Does that include materials?"
+          },
+          {
+            "speaker": "Daniel",
+            "text": "Yes. Clay, glazes and firing are all included, and we lend you the basic tools. The only thing you need to bring is an apron, because clay stains badly. Some people also bring a towel, but that's up to you."
+          },
+          {
+            "speaker": "Fiona",
+            "text": "OK. And where exactly is the pottery studio? I've only been to the main hall, for a concert."
+          },
+          {
+            "speaker": "Daniel",
+            "text": "It's not in the main building. It's in the annexe at the back of the site, directly behind the library. Look for the green door."
+          },
+          {
+            "speaker": "Fiona",
+            "text": "And is there anywhere to park?"
+          },
+          {
+            "speaker": "Daniel",
+            "text": "There's a small car park by the main entrance, but it's nearly always full in the evenings. Most people use the one on Mill Street. It's free after six o'clock and only two minutes' walk away. Don't use the one on Church Road, that's a good ten minutes' walk."
+          },
+          {
+            "speaker": "Fiona",
+            "text": "Mill Street, got it. And when does the course begin?"
+          },
+          {
+            "speaker": "Daniel",
+            "text": "We were going to start on the seventh of January, but because of the school holidays we've moved the first class back a week, so it's the fourteenth."
+          },
+          {
+            "speaker": "Fiona",
+            "text": "The fourteenth of January. Lovely."
+          },
+          {
+            "speaker": "Daniel",
+            "text": "May I ask how you heard about the course?"
+          },
+          {
+            "speaker": "Fiona",
+            "text": "I saw it on your website, but actually it was the centre's newsletter that gave me the idea. It came through the door last week."
+          },
+          {
+            "speaker": "Daniel",
+            "text": "Ah, good. Well, I'll email you a confirmation this afternoon, Mrs Brannigan."
+          },
+          {
+            "speaker": "Fiona",
+            "text": "Thank you, Daniel. Goodbye."
+          }
+        ],
+        "questionGroups": [
+          {
+            "id": "L1-G1",
+            "type": "form_completion",
+            "questionRange": "1-10",
+            "instructions": "Complete the form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+            "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+            "formTitle": "Hillcrest Community Arts Centre: Course Enquiry Form",
+            "formRows": [
+              {
+                "label": "Course",
+                "value": "Ceramics for beginners (8 weeks)"
+              },
+              {
+                "label": "Surname",
+                "value": "{{1}}"
+              },
+              {
+                "label": "Mobile number",
+                "value": "{{2}}"
+              },
+              {
+                "label": "Day of class",
+                "value": "{{3}}"
+              },
+              {
+                "label": "Start time",
+                "value": "{{4}} pm"
+              },
+              {
+                "label": "Fee (after discount)",
+                "value": "£{{5}}"
+              },
+              {
+                "label": "Student must bring",
+                "value": "an {{6}}"
+              },
+              {
+                "label": "Studio location",
+                "value": "in the annexe, behind the {{7}}"
+              },
+              {
+                "label": "Recommended car park",
+                "value": "{{8}} Street"
+              },
+              {
+                "label": "First class",
+                "value": "{{9}} January"
+              },
+              {
+                "label": "Heard about course through",
+                "value": "the centre's {{10}}"
+              }
+            ],
+            "questions": [
+              {
+                "number": 1,
+                "answer": "Brannigan",
+                "acceptedAnswers": [
+                  "Brannigan"
+                ],
+                "explanation": "Spelled out letter by letter."
+              },
+              {
+                "number": 2,
+                "answer": "07700 900461",
+                "acceptedAnswers": [
+                  "07700 900461",
+                  "07700900461"
+                ],
+                "explanation": "Fiona gives her mobile number and Daniel repeats it."
+              },
+              {
+                "number": 3,
+                "answer": "Thursday",
+                "acceptedAnswers": [
+                  "Thursday"
+                ],
+                "explanation": "She prefers Tuesday but has choir practice, so chooses Thursday."
+              },
+              {
+                "number": 4,
+                "answer": "6.30",
+                "acceptedAnswers": [
+                  "6.30",
+                  "6:30",
+                  "6.30 pm",
+                  "18.30"
+                ],
+                "explanation": "Tuesday starts at six; the Thursday class runs from half past six."
+              },
+              {
+                "number": 5,
+                "answer": "85",
+                "acceptedAnswers": [
+                  "85",
+                  "eighty-five",
+                  "eighty five"
+                ],
+                "explanation": "The fee is 95 pounds, minus a ten-pound discount."
+              },
+              {
+                "number": 6,
+                "answer": "apron",
+                "acceptedAnswers": [
+                  "apron"
+                ],
+                "explanation": "The only thing to bring is an apron; the towel is optional."
+              },
+              {
+                "number": 7,
+                "answer": "library",
+                "acceptedAnswers": [
+                  "library"
+                ],
+                "explanation": "The annexe is directly behind the library."
+              },
+              {
+                "number": 8,
+                "answer": "Mill",
+                "acceptedAnswers": [
+                  "Mill"
+                ],
+                "explanation": "Most people use the Mill Street car park; Church Road is too far."
+              },
+              {
+                "number": 9,
+                "answer": "14th",
+                "acceptedAnswers": [
+                  "14th",
+                  "14",
+                  "fourteenth"
+                ],
+                "explanation": "The start was moved back a week from the seventh to the fourteenth."
+              },
+              {
+                "number": 10,
+                "answer": "newsletter",
+                "acceptedAnswers": [
+                  "newsletter"
+                ],
+                "explanation": "She saw the website, but the newsletter gave her the idea."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "L2",
+        "title": "Section 2: Volunteer induction talk (monologue)",
+        "questionRange": "11-20",
+        "context": "A coordinator welcomes new volunteers to a nature reserve.",
+        "script": [
+          {
+            "speaker": "Helen",
+            "text": "Good evening, everyone, and welcome to Marlow Marsh. My name's Helen Okoye and I coordinate our volunteers. Before I explain how things work, let me say a little about the reserve. It was opened twenty-five years ago, after local people campaigned against a council plan to turn this land into a golf course. Some of you might expect me to say it was saved from farming, as many marshes were, but in fact the local farmers supported the campaign."
+          },
+          {
+            "speaker": "Helen",
+            "text": "At the moment we have about sixty volunteers, and we'd like to recruit another twenty. We aren't short of paid staff. We still have six, the same as ever, and no new areas of the reserve have opened. The reason is simply that visitor numbers have doubled in the past five years, and there's a lot more to do."
+          },
+          {
+            "speaker": "Helen",
+            "text": "Now, how do you get started? Everyone has to attend a safety briefing before working on the reserve. That takes place on the first Saturday of every month and lasts about an hour. You don't need a first-aid certificate, although we're happy to pay for the course if you'd like to do one."
+          },
+          {
+            "speaker": "Helen",
+            "text": "As for equipment, we provide waterproof boots, and we have a big store of every size, plus jackets in winter. Binoculars are useful, but we have spares you can borrow. What we do ask is that you bring your own gloves, for hygiene reasons."
+          },
+          {
+            "speaker": "Helen",
+            "text": "People often ask what the hardest time of year is. You might think it's winter, or that it's the invasive plants, but we deal with those in autumn. And our visitors are generally tidy, so litter isn't a major problem either. The real challenge is summer, when water levels in the pools drop, which puts the nesting birds at risk, and we have to pump water in from the river."
+          },
+          {
+            "speaker": "Helen",
+            "text": "Let me now run through the working week. The reserve is closed to the public on Mondays, and we don't use volunteers then. On Tuesdays the footpath team repairs boardwalks and paths, which suits anyone who likes practical work. Wednesdays are for school groups. We need guides who are patient and enjoy talking to children, but you'll be given a script to start with. Thursday mornings are for the bird count. We start at dawn, around half past six, but you needn't be an expert, as you'll be paired with someone experienced. Fridays are staff administration days, so there's no volunteer work. Saturdays are our busiest. In the morning a team clears ditches to keep the water channels open, which is hard physical work, so do be honest about your fitness. And on Sundays, volunteers run the visitor centre shop and the café."
+          },
+          {
+            "speaker": "Helen",
+            "text": "Right, if you have any questions, please ask now, and otherwise there's tea in the café."
+          }
+        ],
+        "questionGroups": [
+          {
+            "id": "L2-G1",
+            "type": "multiple_choice",
+            "questionRange": "11-15",
+            "instructions": "Choose the correct letter, A, B or C.",
+            "questions": [
+              {
+                "number": 11,
+                "text": "What was planned for the marsh before the reserve was created?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "It would become farmland."
+                  },
+                  {
+                    "key": "B",
+                    "text": "It would become a golf course."
+                  },
+                  {
+                    "key": "C",
+                    "text": "It would be used for housing."
+                  }
+                ],
+                "answer": "B",
+                "explanation": "Local people campaigned against a council plan to turn the land into a golf course."
+              },
+              {
+                "number": 12,
+                "text": "Why does the reserve need more volunteers?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "Some paid staff have left."
+                  },
+                  {
+                    "key": "B",
+                    "text": "Visitor numbers have increased."
+                  },
+                  {
+                    "key": "C",
+                    "text": "A new section has opened."
+                  }
+                ],
+                "answer": "B",
+                "explanation": "Staff numbers are unchanged, no new areas have opened, and visitor numbers have doubled."
+              },
+              {
+                "number": 13,
+                "text": "What must new volunteers do before they start work?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "Complete a first-aid course."
+                  },
+                  {
+                    "key": "B",
+                    "text": "Attend a safety briefing."
+                  },
+                  {
+                    "key": "C",
+                    "text": "Pass a fitness test."
+                  }
+                ],
+                "answer": "B",
+                "explanation": "Everyone has to attend a safety briefing. First aid is optional and the reserve will pay for it."
+              },
+              {
+                "number": 14,
+                "text": "What should volunteers bring for themselves?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "waterproof boots"
+                  },
+                  {
+                    "key": "B",
+                    "text": "gloves"
+                  },
+                  {
+                    "key": "C",
+                    "text": "binoculars"
+                  }
+                ],
+                "answer": "B",
+                "explanation": "Boots are provided, binoculars can be borrowed, but volunteers must bring their own gloves."
+              },
+              {
+                "number": 15,
+                "text": "According to Helen, what is the main challenge in summer?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "invasive plants"
+                  },
+                  {
+                    "key": "B",
+                    "text": "litter left by visitors"
+                  },
+                  {
+                    "key": "C",
+                    "text": "falling water levels"
+                  }
+                ],
+                "answer": "C",
+                "explanation": "Invasive plants are dealt with in autumn and litter is not a major problem; water levels in the pools drop in summer."
+              }
+            ]
+          },
+          {
+            "id": "L2-G2",
+            "type": "matching",
+            "questionRange": "16-20",
+            "instructions": "What work do volunteers do on each day of the week? Choose FIVE answers from the box and write the correct letter, A-G, next to Questions 16-20.",
+            "options": [
+              {
+                "key": "A",
+                "text": "Monday"
+              },
+              {
+                "key": "B",
+                "text": "Tuesday"
+              },
+              {
+                "key": "C",
+                "text": "Wednesday"
+              },
+              {
+                "key": "D",
+                "text": "Thursday"
+              },
+              {
+                "key": "E",
+                "text": "Friday"
+              },
+              {
+                "key": "F",
+                "text": "Saturday"
+              },
+              {
+                "key": "G",
+                "text": "Sunday"
+              }
+            ],
+            "questions": [
+              {
+                "number": 16,
+                "text": "repairing footpaths",
+                "answer": "B",
+                "explanation": "Tuesdays: the footpath team repairs boardwalks and paths."
+              },
+              {
+                "number": 17,
+                "text": "counting birds",
+                "answer": "D",
+                "explanation": "Thursday mornings are for the bird count."
+              },
+              {
+                "number": 18,
+                "text": "guiding school groups",
+                "answer": "C",
+                "explanation": "Wednesdays are for school groups."
+              },
+              {
+                "number": 19,
+                "text": "clearing ditches",
+                "answer": "F",
+                "explanation": "Saturday mornings: a team clears ditches."
+              },
+              {
+                "number": 20,
+                "text": "working in the shop and café",
+                "answer": "G",
+                "explanation": "Sundays: volunteers run the visitor centre shop and café."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "L3",
+        "title": "Section 3: Research project tutorial (conversation)",
+        "questionRange": "21-30",
+        "context": "Two students discuss their research proposal with their tutor.",
+        "script": [
+          {
+            "speaker": "Dr Hartley",
+            "text": "Come in, both of you. Right, I've read your project proposal on background music and reading comprehension."
+          },
+          {
+            "speaker": "Priya",
+            "text": "Did you think it was all right?"
+          },
+          {
+            "speaker": "Dr Hartley",
+            "text": "Overall, yes. The topic has been studied before, so it won't win prizes for originality, but you've stated your hypothesis very clearly, which many students at this stage don't. The timetable looks rather tight, but I think you can manage it."
+          },
+          {
+            "speaker": "Callum",
+            "text": "We were worried about the timetable."
+          },
+          {
+            "speaker": "Dr Hartley",
+            "text": "What concerns me more is your sample. You say you plan to recruit forty volunteers from the psychology course."
+          },
+          {
+            "speaker": "Priya",
+            "text": "That's the easiest way, because we know people."
+          },
+          {
+            "speaker": "Dr Hartley",
+            "text": "Forty is a reasonable number for a project of this size, so that's not the problem. The problem is that they'd all come from the same department, and psychology students know too much about experiments. They might guess your aim. Try to include students from at least two faculties."
+          },
+          {
+            "speaker": "Callum",
+            "text": "Right. We'll need to think about how to reach them."
+          },
+          {
+            "speaker": "Dr Hartley",
+            "text": "We'll come to that. Now, how will you measure comprehension?"
+          },
+          {
+            "speaker": "Priya",
+            "text": "We were thinking of asking participants to write a short summary of each passage."
+          },
+          {
+            "speaker": "Dr Hartley",
+            "text": "It's a nice idea, but summaries are difficult to mark objectively. Two markers rarely agree. I'd suggest multiple-choice questions instead, ten for each passage, so scoring is automatic."
+          },
+          {
+            "speaker": "Callum",
+            "text": "That would save time, too."
+          },
+          {
+            "speaker": "Dr Hartley",
+            "text": "Exactly. And what about differences in musical taste? Someone who loves heavy metal will react differently from someone who hates it."
+          },
+          {
+            "speaker": "Priya",
+            "text": "We hadn't thought of that. Should we exclude people who dislike the music?"
+          },
+          {
+            "speaker": "Dr Hartley",
+            "text": "No, that would shrink your sample and bias it. Better to give everyone a short questionnaire at the start about the music they like and how often they study with music. Then you can take it into account in your analysis."
+          },
+          {
+            "speaker": "Callum",
+            "text": "Okay, a questionnaire."
+          },
+          {
+            "speaker": "Dr Hartley",
+            "text": "One more thing. The ethics committee. I know it seems early, but approval can take up to six weeks, so I'd submit your application immediately, not wait for your pilot study."
+          },
+          {
+            "speaker": "Priya",
+            "text": "We'd assumed we should wait."
+          },
+          {
+            "speaker": "Dr Hartley",
+            "text": "No, you can't start recruiting without it."
+          },
+          {
+            "speaker": "Callum",
+            "text": "Could we go through our plan with you? We've drawn up the main stages. The literature review will be finished by the end of November. Then we prepare three reading passages of equal length and difficulty."
+          },
+          {
+            "speaker": "Priya",
+            "text": "And you suggested we check them first."
+          },
+          {
+            "speaker": "Dr Hartley",
+            "text": "Yes. A pilot study with five students will tell you whether the passages really are equivalent."
+          },
+          {
+            "speaker": "Callum",
+            "text": "After that, recruitment. We'd planned to put posters up around campus, but if we need students from other faculties..."
+          },
+          {
+            "speaker": "Dr Hartley",
+            "text": "The faculty mailing lists will reach far more people than posters."
+          },
+          {
+            "speaker": "Priya",
+            "text": "Right. Then the sessions themselves. We'd hoped to use the psychology lab."
+          },
+          {
+            "speaker": "Dr Hartley",
+            "text": "I'm afraid that's being refurbished until March. Book a seminar room in the arts building instead. It's quiet, and nobody uses it in the afternoons."
+          },
+          {
+            "speaker": "Callum",
+            "text": "Then the analysis. We'll use the statistical software from the second-year course."
+          },
+          {
+            "speaker": "Dr Hartley",
+            "text": "Good. And at the end of term you'll present your findings at the department's student conference."
+          },
+          {
+            "speaker": "Priya",
+            "text": "We were going to give a talk."
+          },
+          {
+            "speaker": "Dr Hartley",
+            "text": "A poster is more usual for projects at this level, and the conference rules require one."
+          },
+          {
+            "speaker": "Callum",
+            "text": "A poster, then. Thanks, Dr Hartley."
+          }
+        ],
+        "questionGroups": [
+          {
+            "id": "L3-G1",
+            "type": "multiple_choice",
+            "questionRange": "21-25",
+            "instructions": "Choose the correct letter, A, B or C.",
+            "questions": [
+              {
+                "number": 21,
+                "text": "What does Dr Hartley like most about the students' proposal?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "The topic is original."
+                  },
+                  {
+                    "key": "B",
+                    "text": "The hypothesis is clearly stated."
+                  },
+                  {
+                    "key": "C",
+                    "text": "The timetable allows plenty of time."
+                  }
+                ],
+                "answer": "B",
+                "explanation": "He says the topic is not original and the timetable is tight, but praises the clear hypothesis."
+              },
+              {
+                "number": 22,
+                "text": "What concern does Dr Hartley raise about the sample?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "It is too small."
+                  },
+                  {
+                    "key": "B",
+                    "text": "It comes from one department."
+                  },
+                  {
+                    "key": "C",
+                    "text": "The participants will be paid."
+                  }
+                ],
+                "answer": "B",
+                "explanation": "Forty is reasonable; the problem is that all participants would be psychology students."
+              },
+              {
+                "number": 23,
+                "text": "How will the students measure reading comprehension?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "written summaries"
+                  },
+                  {
+                    "key": "B",
+                    "text": "multiple-choice questions"
+                  },
+                  {
+                    "key": "C",
+                    "text": "spoken answers"
+                  }
+                ],
+                "answer": "B",
+                "explanation": "Summaries are hard to mark objectively, so multiple-choice questions are recommended."
+              },
+              {
+                "number": 24,
+                "text": "How will the students deal with differences in musical taste?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "They will exclude people who dislike the music."
+                  },
+                  {
+                    "key": "B",
+                    "text": "They will use a questionnaire."
+                  },
+                  {
+                    "key": "C",
+                    "text": "They will let participants choose the music."
+                  }
+                ],
+                "answer": "B",
+                "explanation": "Dr Hartley advises a short questionnaire at the start, rather than excluding people."
+              },
+              {
+                "number": 25,
+                "text": "What does Dr Hartley advise about ethics approval?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "Apply for it straight away."
+                  },
+                  {
+                    "key": "B",
+                    "text": "Wait until the pilot study is finished."
+                  },
+                  {
+                    "key": "C",
+                    "text": "It is not needed for student projects."
+                  }
+                ],
+                "answer": "A",
+                "explanation": "Approval can take up to six weeks, so he says to submit the application immediately."
+              }
+            ]
+          },
+          {
+            "id": "L3-G2",
+            "type": "flow_chart_completion",
+            "questionRange": "26-30",
+            "instructions": "Complete the flow-chart below. Write NO MORE THAN TWO WORDS for each answer.",
+            "wordLimit": "NO MORE THAN TWO WORDS",
+            "flowChart": [
+              {
+                "step": 1,
+                "text": "Finish the literature review (end of November)"
+              },
+              {
+                "step": 2,
+                "text": "Write three reading passages and test them in a {{26}} with five students"
+              },
+              {
+                "step": 3,
+                "text": "Recruit participants through faculty {{27}}"
+              },
+              {
+                "step": 4,
+                "text": "Hold the sessions in a {{28}} room"
+              },
+              {
+                "step": 5,
+                "text": "Analyse the results using {{29}} software"
+              },
+              {
+                "step": 6,
+                "text": "Present findings at the student conference as a {{30}}"
+              }
+            ],
+            "questions": [
+              {
+                "number": 26,
+                "answer": "pilot study",
+                "acceptedAnswers": [
+                  "pilot study"
+                ],
+                "explanation": "A pilot study with five students will check the passages."
+              },
+              {
+                "number": 27,
+                "answer": "mailing lists",
+                "acceptedAnswers": [
+                  "mailing lists"
+                ],
+                "explanation": "Faculty mailing lists will reach more people than posters."
+              },
+              {
+                "number": 28,
+                "answer": "seminar",
+                "acceptedAnswers": [
+                  "seminar"
+                ],
+                "explanation": "The lab is being refurbished, so they book a seminar room."
+              },
+              {
+                "number": 29,
+                "answer": "statistical",
+                "acceptedAnswers": [
+                  "statistical"
+                ],
+                "explanation": "They will use the statistical software from the second-year course."
+              },
+              {
+                "number": 30,
+                "answer": "poster",
+                "acceptedAnswers": [
+                  "poster"
+                ],
+                "explanation": "A poster is required by the conference rules, instead of a talk."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "L4",
+        "title": "Section 4: Trees in the City (academic lecture)",
+        "questionRange": "31-40",
+        "context": "A lecturer talks about urban forestry. Figures in the lecture are illustrative and were invented for this test.",
+        "script": [
+          {
+            "speaker": "Lecturer",
+            "text": "Good morning. In today's session I'd like to look at urban forestry, which simply means the planning and management of trees in towns and cities. For a long time, city trees were seen mainly as decoration. Today, planners increasingly treat them as infrastructure, something a city needs in the way it needs roads and drains. I'll outline four benefits, then three practical problems, and finish with some solutions."
+          },
+          {
+            "speaker": "Lecturer",
+            "text": "First, cooling. Anyone who has walked down a tree-lined street on a hot day knows it feels cooler, and there are two reasons. One is shade. The other is that leaves release water vapour through a process called transpiration, which takes heat from the air. In one study of a medium-sized city, researchers compared streets with different amounts of tree cover. Streets where the canopy covered thirty per cent of the area were, on average, about four degrees Celsius cooler in summer than streets where it covered just ten per cent."
+          },
+          {
+            "speaker": "Lecturer",
+            "text": "The second benefit concerns rainfall. Leaves catch some of the rain before it hits the ground, and roots help the soil absorb the rest. This eases the pressure on drains during storms, which means less flooding."
+          },
+          {
+            "speaker": "Lecturer",
+            "text": "Third, air quality. Leaves are rough and sometimes sticky, so they catch fine particles from traffic and industry. Trees aren't a complete solution, since some species also release chemicals that contribute to ozone, but on balance they help."
+          },
+          {
+            "speaker": "Lecturer",
+            "text": "The fourth benefit is harder to measure: wellbeing. One well-known hospital study compared patients recovering from the same operation. Those whose windows looked onto trees left hospital sooner and needed fewer strong painkillers than those who looked at a brick wall."
+          },
+          {
+            "speaker": "Lecturer",
+            "text": "So why doesn't every city simply plant thousands of trees? Well, there are problems. The first is space. Beneath the pavement there's a tangle of pipes and cables, and tree roots compete with them. Planners have to choose sites and species carefully, because roots that lift a pavement or crack a pipe quickly make a tree unpopular."
+          },
+          {
+            "speaker": "Lecturer",
+            "text": "The second problem is disease. If a street is planted with a single species, one pest can wipe out the lot. The classic example is Dutch elm disease, which killed millions of elms across Europe and North America in the twentieth century. To avoid a repeat, many cities follow a rule of thumb that no more than ten per cent of the trees should belong to any one species."
+          },
+          {
+            "speaker": "Lecturer",
+            "text": "The third problem is cost. Planting a tree is the cheap part. Young trees need regular watering for their first three years, and many die if they don't get it. The expense of maintenance has led many cities to rely on volunteer schemes in which local residents water saplings near their homes. These schemes not only reduce costs, they also seem to make residents feel more responsible for the trees. We'll look at some case studies of this next week."
+          }
+        ],
+        "questionGroups": [
+          {
+            "id": "L4-G1",
+            "type": "note_completion",
+            "questionRange": "31-40",
+            "instructions": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+            "wordLimit": "ONE WORD AND/OR A NUMBER",
+            "notesTitle": "Urban forestry: notes",
+            "notes": [
+              {
+                "heading": "Benefits",
+                "items": [
+                  "Cooling: streets with {{31}} % canopy cover were about 4 degrees cooler than streets with 10 % cover",
+                  "Leaves cool the air by releasing {{32}} vapour (transpiration)",
+                  "Rainfall: roots and soil absorb water, reducing pressure on {{33}}",
+                  "Air quality: leaves catch fine {{34}} from traffic and industry",
+                  "Wellbeing: hospital patients with a tree view needed fewer strong {{35}}"
+                ]
+              },
+              {
+                "heading": "Problems",
+                "items": [
+                  "Space: roots compete with underground {{36}} and cables",
+                  "Disease: example is {{37}} elm disease",
+                  "Rule of thumb: no more than {{38}} % of trees from a single species",
+                  "Cost: young trees need watering for the first {{39}} years",
+                  "Many cities rely on {{40}} schemes in which residents water saplings"
+                ]
+              }
+            ],
+            "questions": [
+              {
+                "number": 31,
+                "answer": "30",
+                "acceptedAnswers": [
+                  "30",
+                  "thirty"
+                ],
+                "explanation": "Canopy covering thirty per cent of the area."
+              },
+              {
+                "number": 32,
+                "answer": "water",
+                "acceptedAnswers": [
+                  "water"
+                ],
+                "explanation": "Leaves release water vapour through transpiration."
+              },
+              {
+                "number": 33,
+                "answer": "drains",
+                "acceptedAnswers": [
+                  "drains"
+                ],
+                "explanation": "This eases the pressure on drains during storms."
+              },
+              {
+                "number": 34,
+                "answer": "particles",
+                "acceptedAnswers": [
+                  "particles"
+                ],
+                "explanation": "Leaves catch fine particles from traffic and industry."
+              },
+              {
+                "number": 35,
+                "answer": "painkillers",
+                "acceptedAnswers": [
+                  "painkillers",
+                  "pain-killers"
+                ],
+                "explanation": "Patients with a tree view needed fewer strong painkillers."
+              },
+              {
+                "number": 36,
+                "answer": "pipes",
+                "acceptedAnswers": [
+                  "pipes"
+                ],
+                "explanation": "A tangle of pipes and cables beneath the pavement."
+              },
+              {
+                "number": 37,
+                "answer": "Dutch",
+                "acceptedAnswers": [
+                  "Dutch"
+                ],
+                "explanation": "The classic example is Dutch elm disease."
+              },
+              {
+                "number": 38,
+                "answer": "10",
+                "acceptedAnswers": [
+                  "10",
+                  "ten"
+                ],
+                "explanation": "No more than ten per cent of trees from any one species."
+              },
+              {
+                "number": 39,
+                "answer": "3",
+                "acceptedAnswers": [
+                  "3",
+                  "three"
+                ],
+                "explanation": "Young trees need regular watering for their first three years."
+              },
+              {
+                "number": 40,
+                "answer": "volunteer",
+                "acceptedAnswers": [
+                  "volunteer"
+                ],
+                "explanation": "Cities rely on volunteer schemes in which residents water saplings."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "timeMinutes": 60,
+    "task1": {
+      "id": "W1",
+      "timeSuggestedMinutes": 20,
+      "minWords": 150,
+      "prompt": "The chart below shows the main method of travel to work used by adult residents of the fictional city of Veldmoor in 2005, 2015 and 2025. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "chartData": {
+        "type": "grouped_bar_chart",
+        "title": "Main method of travel to work among adult residents of Veldmoor (%), 2005, 2015 and 2025",
+        "yAxisLabel": "Percentage of commuters",
+        "categories": [
+          "Car",
+          "Bus/tram",
+          "Rail",
+          "Cycling",
+          "Walking"
+        ],
+        "series": [
+          {
+            "name": "2005",
+            "values": [
+              58,
+              20,
+              8,
+              4,
+              10
+            ]
+          },
+          {
+            "name": "2015",
+            "values": [
+              50,
+              22,
+              10,
+              8,
+              10
+            ]
+          },
+          {
+            "name": "2025",
+            "values": [
+              38,
+              24,
+              12,
+              16,
+              10
+            ]
+          }
+        ],
+        "note": "Each year totals 100%. Veldmoor is a fictional city and the data are invented for this test."
+      },
+      "keyFeatures": [
+        "Car use fell steadily and most noticeably, from 58% to 38% (a drop of 20 percentage points), but the car remained the single most common method in every year.",
+        "Cycling grew fastest in relative terms, quadrupling from 4% to 16%, and overtook walking after 2015.",
+        "Bus/tram and rail both rose modestly (20% to 24% and 8% to 12%).",
+        "Walking stayed constant at 10% throughout."
+      ],
+      "modelAnswer": "The bar chart compares how adult residents of Veldmoor travelled to work in 2005, 2015 and 2025. Overall, car use declined markedly, while cycling and public transport became more popular. Walking was the only method that did not change.\n\nIn 2005, the car dominated commuting, accounting for 58% of journeys, far ahead of buses and trams (20%). Walking was used by 10% of commuters, whereas rail and cycling were the least common at 8% and 4% respectively.\n\nOver the next twenty years the car's share fell steadily, to 50% in 2015 and 38% in 2025, although it remained the most widely used method. Cycling showed the most dramatic growth, doubling to 8% by 2015 and then doubling again to 16% in 2025, which put it ahead of walking. Buses and trams rose gradually to 24%, and rail use increased by four percentage points to 12%. By contrast, the proportion who walked stayed at exactly 10% in all three years."
+    },
+    "task2": {
+      "id": "W2",
+      "timeSuggestedMinutes": 40,
+      "minWords": 250,
+      "prompt": "Some people believe that museums and galleries should be free for everyone and paid for through taxes. Others think that visitors should pay an entrance fee.\n\nDiscuss both views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "essayType": "Discuss both views and give your opinion",
+      "suggestedStructure": [
+        "Introduction: paraphrase the topic and state your position clearly.",
+        "Body 1: the case for free entry (access for all income groups, education, cultural participation, tourism benefits).",
+        "Body 2: the case for fees (cost to taxpayers who never visit, funding for conservation and exhibitions, fees can encourage a sense of value).",
+        "Conclusion: restate your opinion and summarise the main reason for it."
+      ]
+    },
+    "evaluationCriteria": {
+      "note": "These are simplified, independent descriptors for self-assessment practice. They are not the official IELTS band descriptors, and this test is not affiliated with IELTS.",
+      "weighting": "Each criterion carries equal weight (25%). Task 2 carries about twice the weight of Task 1 in the overall Writing score.",
+      "criteria": [
+        {
+          "name": "Task Achievement (Task 1) / Task Response (Task 2)",
+          "whatExaminersLookFor": [
+            "Task 1: a clear overview, accurate key features, relevant comparisons, data reported correctly, no personal opinion.",
+            "Task 2: all parts of the question answered, a clear and consistent position, ideas that are well developed and supported."
+          ],
+          "strongPerformance": "All requirements met; the overview or position is clear throughout; main ideas are extended with relevant support.",
+          "weakPerformance": "Parts of the task missed; no overview or unclear position; irrelevant detail; inaccurate data; under the word count."
+        },
+        {
+          "name": "Coherence and Cohesion",
+          "whatExaminersLookFor": [
+            "Logical paragraphing and progression of ideas",
+            "A range of cohesive devices used naturally, not mechanically",
+            "Clear referencing (this, these, the former)"
+          ],
+          "strongPerformance": "Ideas flow logically; each paragraph has a clear central topic; linking is natural.",
+          "weakPerformance": "Ideas are hard to follow; linkers are overused or wrong; paragraphing is missing or illogical."
+        },
+        {
+          "name": "Lexical Resource",
+          "whatExaminersLookFor": [
+            "Range and precision of vocabulary",
+            "Collocation and appropriate style",
+            "Spelling and word formation"
+          ],
+          "strongPerformance": "Wide, flexible vocabulary with only rare errors.",
+          "weakPerformance": "Limited or repetitive vocabulary; frequent errors that make meaning unclear."
+        },
+        {
+          "name": "Grammatical Range and Accuracy",
+          "whatExaminersLookFor": [
+            "A mix of simple and complex sentences",
+            "Accuracy of tenses, articles, agreement and punctuation"
+          ],
+          "strongPerformance": "A wide range of structures used accurately; most sentences are error-free.",
+          "weakPerformance": "Mostly simple sentences; frequent errors that slow the reader down."
+        }
+      ],
+      "selfCheckList": [
+        "Task 1: Did I write an overview paragraph and avoid giving opinions?",
+        "Task 1: Did I include at least two comparisons and the key figures?",
+        "Task 2: Does every paragraph answer the question directly?",
+        "Both tasks: Did I meet the minimum word count (150 and 250)?",
+        "Both tasks: Did I leave 2-3 minutes to proofread?"
+      ]
+    }
+  },
+  "speaking": {
+    "durationMinutes": "11-14",
+    "format": "Face-to-face or video interview with an examiner. Record your answers for review.",
+    "part1": {
+      "durationMinutes": "4-5",
+      "instructions": "The examiner introduces themselves, checks your identification and asks general questions about familiar topics.",
+      "introQuestions": [
+        "Can you tell me your full name, please?",
+        "Where are you from?",
+        "Do you work or are you a student?"
+      ],
+      "topics": [
+        {
+          "topic": "Weather and clothing",
+          "questions": [
+            "What is the weather usually like where you live?",
+            "Does the weather affect what you wear?",
+            "Do you prefer wearing comfortable clothes or fashionable clothes?",
+            "Is there a season of the year you particularly enjoy? Why?"
+          ]
+        },
+        {
+          "topic": "Local markets",
+          "questions": [
+            "Are there any markets in your area?",
+            "How often do you go to a market, rather than a supermarket?",
+            "What kinds of things do people usually buy at markets?",
+            "Do you think markets will still be popular in the future?"
+          ]
+        },
+        {
+          "topic": "Handwriting",
+          "questions": [
+            "Do you often write by hand?",
+            "Do you think your handwriting is easy to read?",
+            "When was the last time you wrote a letter or card to someone?",
+            "Do you think children should still be taught handwriting at school?"
+          ]
+        }
+      ]
+    },
+    "part2": {
+      "durationMinutes": "3-4",
+      "instructions": "You will be given a topic card. You have 1 minute to prepare, and you may make notes. Then speak for 1-2 minutes. The examiner may ask one or two short questions at the end.",
+      "cueCard": {
+        "title": "Describe a time when you learned a useful skill from someone older than you.",
+        "bulletPoints": [
+          "who this person was",
+          "what skill you learned",
+          "how they taught you",
+          "and explain why this skill has been useful to you."
+        ]
+      },
+      "roundingOffQuestions": [
+        "Do you still use this skill today?",
+        "Would you like to teach this skill to someone else?"
+      ],
+      "tips": [
+        "Use the bullet points as a structure but do not just read them out.",
+        "Speak in the past tense for the story, then the present for 'why it is useful'.",
+        "Keep talking until the examiner stops you, and aim for at least 1 minute 30 seconds."
+      ]
+    },
+    "part3": {
+      "durationMinutes": "4-5",
+      "instructions": "The examiner asks more abstract questions related to the Part 2 topic. Aim to give extended answers with reasons and examples.",
+      "themes": [
+        {
+          "theme": "Learning from other generations",
+          "questions": [
+            "What kinds of things can young people learn from older people?",
+            "Do you think older people are less willing to learn new skills than younger people? Why or why not?",
+            "How has the relationship between older and younger generations changed in your country?"
+          ]
+        },
+        {
+          "theme": "Skills and education",
+          "questions": [
+            "Which practical skills do you think schools should teach more of?",
+            "Is it better to learn a skill from a teacher or to teach yourself, for example online?",
+            "Some people say traditional skills are disappearing. Is this a problem?"
+          ]
+        },
+        {
+          "theme": "Skills and the workplace",
+          "questions": [
+            "How important is it for adults to keep learning new skills throughout their working lives?",
+            "Do you think technology will make some skills unnecessary in the future?"
+          ]
+        }
+      ]
+    },
+    "evaluationCriteria": {
+      "note": "Simplified, independent self-assessment descriptors, not the official IELTS descriptors.",
+      "criteria": [
+        {
+          "name": "Fluency and Coherence",
+          "lookFor": "Speaking at length without long pauses, using linking words naturally, organising ideas logically."
+        },
+        {
+          "name": "Lexical Resource",
+          "lookFor": "Range and precision of vocabulary, idiomatic language, paraphrasing when you cannot recall a word."
+        },
+        {
+          "name": "Grammatical Range and Accuracy",
+          "lookFor": "A mix of simple and complex structures, accurate tenses, and few errors that affect understanding."
+        },
+        {
+          "name": "Pronunciation",
+          "lookFor": "Clear individual sounds, word and sentence stress, intonation, and overall ease of understanding."
+        }
+      ],
+      "selfReviewChecklist": [
+        "Did I answer Part 1 in 2-3 sentences rather than one word?",
+        "Did I speak for at least 1 minute 30 seconds in Part 2?",
+        "Did I give reasons and examples in Part 3?",
+        "Did I recover smoothly when I made a mistake?"
+      ]
+    }
+  }
+}
