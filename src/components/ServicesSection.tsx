@@ -5,6 +5,7 @@ import {
   Mic,
   Compass,
   Award,
+  FileCheck2,
   ArrowRight,
   CheckCircle2,
   Sparkles
@@ -33,6 +34,8 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({
         return <Compass className="w-6 h-6" />;
       case 'Award':
         return <Award className="w-6 h-6" />;
+      case 'FileCheck2':
+        return <FileCheck2 className="w-6 h-6" />;
       default:
         return <BookOpen className="w-6 h-6" />;
     }
@@ -49,6 +52,8 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({
         return APP_ROUTES.studyAbroad;
       case 'our-success':
         return `${APP_ROUTES.home}#stories`;
+      case 'ielts-mock-test':
+        return APP_ROUTES.mockTests;
       default:
         return APP_ROUTES.ielts;
     }
@@ -93,8 +98,8 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({
           </motion.p>
         </div>
 
-        {/* 4 Premium Service Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
+        {/* Service Cards (4 core cards + balanced 5th IELTS Mock Test card) */}
+        <div className="flex flex-wrap justify-center gap-6">
           {SERVICES.map((service, index) => {
             return (
               <motion.div
@@ -104,7 +109,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({
                 viewport={{ once: true, margin: '-50px' }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 whileHover={{ y: -8 }}
-                className="group relative bg-white rounded-2xl p-6 border border-neutral-200/90 hover:border-red-300 shadow-sm hover:shadow-xl hover:shadow-red-950/10 transition-all duration-300 flex flex-col justify-between"
+                className="w-full md:w-[calc(50%-12px)] xl:w-[calc(25%-18px)] group relative bg-white rounded-2xl p-6 border border-neutral-200/90 hover:border-red-300 shadow-sm hover:shadow-xl hover:shadow-red-950/10 transition-all duration-300 flex flex-col justify-between"
               >
                 {/* Expanding Red Accent Line on Top */}
                 <div className="absolute top-0 left-0 right-0 h-1.5 bg-neutral-100 rounded-t-2xl overflow-hidden">

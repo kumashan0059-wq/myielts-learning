@@ -63,9 +63,13 @@ export const Footer: React.FC = () => {
           
           {/* Column 1: Brand & Tagline (lg:col-span-4) */}
           <div className="lg:col-span-4">
-            <div className="mb-4">
+            <Link
+              to={APP_ROUTES.home}
+              aria-label="MY IELTS Home"
+              className="inline-block mb-4 rounded-2xl focus:outline-none focus-visible:ring-2 focus-visible:ring-[#E11D2A] transition-transform hover:scale-[1.01]"
+            >
               <BrandLogo variant="dark" size="lg" showTagline={true} />
-            </div>
+            </Link>
 
             <p className="text-neutral-300 text-xs font-semibold mb-2">
               {BRAND_CORE_PROMISE}

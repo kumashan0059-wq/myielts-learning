@@ -82,6 +82,20 @@ export const SERVICES: ServiceItem[] = [
     iconName: "Award",
     tag: "Student Outcomes",
     highlights: ["Band Score Breakthroughs", "Verified Student Stories", "Global University Offers"]
+  },
+  {
+    id: "ielts-mock-test",
+    title: "IELTS Mock Test",
+    shortDescription: "Prepare for your IELTS exam with our interactive online mock test platform. Practice all four modules, evaluate your performance and improve your confidence before the actual examination.",
+    details: "Experience computer-delivered IELTS Academic and General Training simulations featuring timed Listening audio, split-screen Reading passages, Task 1 & 2 Writing, Speaking recordings, and instant band score analysis.",
+    iconName: "FileCheck2",
+    tag: "ONLINE EXAMINATION",
+    highlights: [
+      "Full IELTS Mock Examination",
+      "Listening, Reading, Writing & Speaking",
+      "Realistic Online Test Environment",
+      "Result & Band Score Analysis"
+    ]
   }
 ];
 

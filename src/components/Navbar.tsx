@@ -94,17 +94,18 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenConsultation, onOpenBatch 
         id="navbar"
         className={`sticky top-0 z-40 transition-all duration-300 ${
           isScrolled
-            ? 'bg-white/95 backdrop-blur-md shadow-md py-3 border-b border-neutral-100'
-            : 'bg-white/90 backdrop-blur-sm py-3.5 border-b border-neutral-100/80'
+            ? 'bg-white/95 backdrop-blur-md shadow-md py-2 border-b border-neutral-100'
+            : 'bg-white/90 backdrop-blur-sm py-2.5 border-b border-neutral-100/80'
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-2">
-          {/* Logo */}
+          {/* Official Brand Logo */}
           <Link
             to={APP_ROUTES.home}
-            className="focus:outline-none focus-visible:ring-2 focus-visible:ring-[#E11D2A] rounded-lg shrink-0"
+            aria-label="MY IELTS Home"
+            className="focus:outline-none focus-visible:ring-2 focus-visible:ring-[#E11D2A] rounded-lg shrink-0 transition-opacity hover:opacity-90"
           >
-            <BrandLogo size="md" showTagline={true} />
+            <BrandLogo size="navbar" />
           </Link>
 
           {/* Desktop Navigation Links */}
