@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import os from 'node:os';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { DatabaseSync } from 'node:sqlite';
@@ -15,9 +16,14 @@ import type {
   AttemptResults,
 } from '../shared/mockTestTypes.ts';
 
-const IS_SERVERLESS = Boolean(process.env.NETLIFY || process.env.AWS_LAMBDA_FUNCTION_NAME);
+const IS_SERVERLESS = Boolean(
+  process.env.VERCEL ||
+    process.env.VERCEL_ENV ||
+    process.env.NETLIFY ||
+    process.env.AWS_LAMBDA_FUNCTION_NAME
+);
 const ROOT_DIR = process.cwd();
-const STORAGE_ROOT = IS_SERVERLESS ? path.resolve('/tmp', 'myielts') : ROOT_DIR;
+const STORAGE_ROOT = IS_SERVERLESS ? path.resolve(os.tmpdir(), 'myielts') : ROOT_DIR;
 export const DATA_DIR = path.resolve(STORAGE_ROOT, 'data');
 export const UPLOADS_DIR = path.resolve(STORAGE_ROOT, 'uploads');
 

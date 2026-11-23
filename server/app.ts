@@ -159,6 +159,10 @@ function getAllowedCorsOrigin(req: Request): string | null {
     process.env.APP_URL,
     process.env.URL,
     process.env.DEPLOY_PRIME_URL,
+    process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : undefined,
+    process.env.VERCEL_PROJECT_PRODUCTION_URL
+      ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+      : undefined,
     ...(process.env.ALLOWED_ORIGINS ? process.env.ALLOWED_ORIGINS.split(',') : []),
   ]
     .map((v) => v?.trim().replace(/\/+$/, ''))
@@ -187,7 +191,7 @@ export function createApiApp(): express.Express {
   const app = express();
   app.set('trust proxy', 1);
 
-  // Normalize Netlify Functions prefix (/.netlify/functions/api/* -> /api/*)
+  // Normalize serverless function prefixes (/.netlify/functions/api/* or Vercel stripped /api)
   app.use((req: Request, _res: Response, next: NextFunction) => {
     const fnPrefix = '/.netlify/functions/api';
     if (req.url === fnPrefix || req.url === `${fnPrefix}/`) {
@@ -196,7 +200,7 @@ export function createApiApp(): express.Express {
       const rest = req.url.slice(fnPrefix.length);
       req.url = rest.startsWith('/api/') || rest === '/api' ? rest : `/api${rest}`;
     } else if (
-      (process.env.NETLIFY || process.env.AWS_LAMBDA_FUNCTION_NAME) &&
+      (process.env.VERCEL || process.env.VERCEL_ENV || process.env.NETLIFY || process.env.AWS_LAMBDA_FUNCTION_NAME) &&
       !req.url.startsWith('/api')
     ) {
       req.url = req.url === '/' ? '/api/health' : `/api${req.url.startsWith('/') ? req.url : `/${req.url}`}`;
@@ -204,7 +208,7 @@ export function createApiApp(): express.Express {
     next();
   });
 
-  // Explicit origin-checked CORS for cross-origin Netlify / split deployments
+  // Explicit origin-checked CORS for cross-origin / preview deployments
   app.use('/api', (req: Request, res: Response, next: NextFunction) => {
     const allowedOrigin = getAllowedCorsOrigin(req);
     if (allowedOrigin) {
@@ -220,7 +224,14 @@ export function createApiApp(): express.Express {
     next();
   });
 
-  app.use('/api', express.json({ limit: '4mb' }));
+  const jsonBodyParser = express.json({ limit: '4mb' });
+  app.use('/api', (req: Request, res: Response, next: NextFunction) => {
+    if (req.body !== undefined) {
+      next();
+      return;
+    }
+    jsonBodyParser(req, res, next);
+  });
 
   app.get('/api/health', (_req: Request, res: Response) => {
     res.json({ ok: true, timestamp: new Date().toISOString() });
