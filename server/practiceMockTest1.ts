@@ -240,8 +240,12 @@ export function loadAcademicPracticeMockTest1Payload(): {
     path.resolve('/var/task/server/data/academic_practice_mock_test_1.json'),
     path.resolve(moduleDir, 'data/academic_practice_mock_test_1.json'),
     path.resolve(moduleDir, '../../server/data/academic_practice_mock_test_1.json'),
+    path.resolve(process.cwd(), 'public/assets/aistudio/Paste_November_22__2026_-_10_45PM_3c4cedb0'),
   ];
-  const jsonPath = candidatePaths.find((p) => fs.existsSync(p)) ?? candidatePaths[0];
+  const jsonPath = candidatePaths.find((p) => fs.existsSync(p));
+  if (!jsonPath) {
+    throw new Error('Could not locate academic_practice_mock_test_1.json in server/data/.');
+  }
   const raw = JSON.parse(fs.readFileSync(jsonPath, 'utf8')) as RawJsonTest;
 
   const listeningSections: ListeningSectionData[] = raw.listening.sections.map((sec, sIdx) => {
