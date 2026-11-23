@@ -5,9 +5,11 @@
 
 [build.environment]
   NODE_VERSION = "22"
+  AWS_LAMBDA_JS_RUNTIME = "nodejs22.x"
 
 [functions]
   node_bundler = "esbuild"
+  external_node_modules = ["express", "multer", "dotenv", "serverless-http", "@google/genai"]
   included_files = ["server/data/**"]
 
 [[redirects]]

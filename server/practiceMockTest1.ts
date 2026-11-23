@@ -231,10 +231,7 @@ export function loadAcademicPracticeMockTest1Payload(): {
   questionCount: number;
   payload: MockTestPayload;
 } {
-  const moduleDir =
-    typeof import.meta !== 'undefined' && typeof import.meta.url === 'string'
-      ? path.dirname(new URL(import.meta.url).pathname)
-      : process.cwd();
+  const moduleDir = typeof __dirname === 'string' ? __dirname : process.cwd();
   const candidatePaths = [
     path.resolve(process.cwd(), 'server/data/academic_practice_mock_test_1.json'),
     path.resolve('/var/task/server/data/academic_practice_mock_test_1.json'),

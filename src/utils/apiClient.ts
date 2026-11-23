@@ -92,10 +92,16 @@ export async function fetchJson<T = unknown>(
   try {
     parsed = JSON.parse(rawText);
   } catch {
+    const snippet = trimmed.replace(/\s+/g, ' ').slice(0, 140);
+    if (!res.ok) {
+      const hint =
+        res.status === 404
+          ? `API endpoint "${endpoint}" was not found (HTTP 404: ${snippet}). Ensure the backend server or Netlify Functions are deployed and running.`
+          : `Request to ${endpoint} failed (HTTP ${res.status}): ${snippet}`;
+      throw new ApiRequestError(hint, res.status, 'HTTP_ERROR');
+    }
     throw new ApiRequestError(
-      res.ok
-        ? `Received invalid JSON from ${endpoint}.`
-        : `Request failed (HTTP ${res.status}) with an invalid JSON response.`,
+      `Received non-JSON response from ${endpoint}: ${snippet}`,
       res.status,
       'INVALID_JSON'
     );
